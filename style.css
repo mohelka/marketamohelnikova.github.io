@@ -1,3 +1,9 @@
-nav {
-    background-color: ##008080;
+body {
+    font-family: 'Ibarra Real Nova', serif; /* Nastavení písma pro celý web */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #242424; /* Nastavení barvy nadpisů */
+    background-color: #008080; /* Nastavení barvy pozadí nadpisů */
+    padding: 5px; /* Přidání vnitřního okraje pro lepší vzhled */
 }
