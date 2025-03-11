@@ -1,7 +1,9 @@
 body {
     font-family: 'Ibarra Real Nova', serif; /* Nastavení písma pro celý web */
 }
-
+body {
+    background-color: lightblue;
+}
 h1, h2, h3, h4, h5, h6 {
     color: #242424; /* Nastavení barvy nadpisů */
     background-color: #008080; /* Nastavení barvy pozadí nadpisů */
