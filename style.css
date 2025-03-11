@@ -1,11 +1,29 @@
 body {
-    font-family: 'Ibarra Real Nova', serif; /* Nastavení písma pro celý web */
+    background-color: white;
+    color: black;
+    font-family: 'Ibarra Real Nova', serif;
 }
-body {
-    background-color: lightblue;
-}
+
 h1, h2, h3, h4, h5, h6 {
-    color: #242424; /* Nastavení barvy nadpisů */
-    background-color: #008080; /* Nastavení barvy pozadí nadpisů */
-    padding: 5px; /* Přidání vnitřního okraje pro lepší vzhled */
+    color: black;
+    background-color: transparent; /* Odstranění podbarvení nadpisů */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    color: blue; /* Barva odkazů */
+    text-decoration: none; /* Odstranění podtržení odkazů */
+}
+
+a:hover {
+    text-decoration: underline; /* Podtržení odkazů při najetí myší */
 }
